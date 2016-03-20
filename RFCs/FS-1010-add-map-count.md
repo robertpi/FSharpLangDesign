@@ -15,7 +15,11 @@ Add ``Map.count``.
 # Motivation
 [motivation]: #motivation
 
-TBD
+This was requested in this uservoice: https://fslang.uservoice.com/forums/245727-f-language/suggestions/12880398-add-map-count
+
+The main motivation is to make the module more regular, it seems strange to me that you should need to use the module for most map operation, but are forced to use instance members for others. I think it's quite similar to the clean up of the Seq/List/Array module collections that was done for F# 4.0, which was requested here: https://fslang.uservoice.com/forums/245727-f-language/suggestions/5663997-make-fsharp-core-collection-functions-for-list-ar 
+
+It's a shame, Set/Map call this concept "count" as Seq/Map/List all call it "length", but I think it's too late to change this.
 
 # Detailed design
 [design]: #detailed-design
